@@ -5,10 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/assets/lib/layui/css/layui.css">
+    <link rel="stylesheet" href="/assets/css/login.css" />
 </head>
 
 <body>
-    <h1>登录页面</h1>
+    <div class="layui-main header">
+        <img src="/assets/images/logo.png" alt="">
+    </div>
+    <div class="loginBox">
+        <div class="header-box"></div>
+        <!-- 登录盒子 -->
+        <div class="login_box">
+            <a href="javascript:;" id="link-reg">去注册账号</a>
+        </div>
+        <!-- 注册盒子 -->
+        <div class="reg_box">
+            <a href="javascript:;" id="link-login">去登录</a>
+        </div>
+
+    </div>
+    <!-- 一定要在最底部,导入所有的script脚本 -->
+    <script src="/assets/lib/layui/layui.all.js"></script>
+    <script src="/assets/lib/jquery.js"></script>
+    <script src="/assets/js/login.js"></script>
 </body>
 
 </html>

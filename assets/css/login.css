@@ -1,0 +1,35 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+}
+body {
+  background: url('/assets/images/login_bg.jpg') no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header img {
+  margin-top: 20px;
+}
+.loginBox {
+  width: 400px;
+  height: 310px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.loginBox .header-box {
+  height: 60px;
+  background: url('/assets/images/login_title.png') no-repeat center;
+}
+.loginBox .reg_box {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: pink;
+}
