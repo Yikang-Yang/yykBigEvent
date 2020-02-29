@@ -62,3 +62,10 @@ $(function () {
     })
 
 })
+
+// git remote set - url origin ssh：//git@github.com:Yikang-Yang/yykEvent.git
+// https://github.com/Yikang-Yang/yykEvent.git
+// git remote add origin url git@github.com: Yikang - Yang / yykEvent.git
+
+// $ ssh - keygen - t rsa - b 4096 - C "932396148@qq.com"
+// ssh - keygen - t rsa - C "932396148@qq.com"
