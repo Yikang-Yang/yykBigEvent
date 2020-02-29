@@ -68,7 +68,10 @@ function renderAvatar (user) {
         var first = name[0].toUpperCase()
         // console.log(name[0].toUpperCase());
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> user
         $('.text_avatar').html(first).show()
     }
 }
